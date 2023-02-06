@@ -19,7 +19,7 @@ int[,] GetArray(int m, int n)
     return numbers;
 }
 
-int[,] PrintArray(int[,] inArray)
+void PrintArray(int[,] inArray)
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
@@ -29,7 +29,6 @@ int[,] PrintArray(int[,] inArray)
         }
         System.Console.WriteLine();
     }
-    return inArray;
 }
 
 Console.Clear();
