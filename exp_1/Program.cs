@@ -25,7 +25,7 @@ int[,] PrintArray(int[,] inArray)
     {
         for (int j = 0; j < inArray.GetLength(1); j++)
         {
-            System.Console.Write(inArray[i, j] + " " + "\t");
+            System.Console.Write(inArray[i, j] + "\t");
         }
         System.Console.WriteLine();
     }
